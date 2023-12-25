@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.container1 {
+  background: #000000;
+}
+
+.container2 {
+  background: #fff;
+}
+
+.title1 {
+  color: #ffffff;
+}
+
+.title2 {
+  color: #000;
+}
+
+.button {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
